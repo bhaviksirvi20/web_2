@@ -1,0 +1,464 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Oswald", sans-serif; */
+    /* font-family: "Bebas Neue", sans-serif; */
+}
+.main1{
+    height: 750px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    background-image: url(./ea71bb_26b74ffd432b4a4890727cd91b6f60e9f000.jpg);
+}
+.nevbar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+/* --------------------------=------------------------ */
+.left{
+    height: 150px;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.left .b img{
+    height: 120px;
+    width: 18%;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.left .b img:hover{
+    cursor: pointer;
+}
+.left p{
+    /* background-color: yellow; */
+    height: 40px;
+    width: 10%;
+    margin-top: -98px;
+    margin-left: 210px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+}
+.left p:hover{
+    cursor: pointer;
+}
+.left h6{
+    /* background-color: yellow; */
+    height: 40px;
+    width: 30%;
+    margin-top: -5px;
+    margin-left: 210px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    position: relative;
+}
+.left h6:hover{
+    cursor: pointer;
+}
+/* -------------------------------------------------- */
+.right{
+    height: 150px;
+    width: 50%;
+    /* background-color: rgb(0, 255, 94); */
+}
+.right .L {
+    height: 30px;
+    width: 52%;
+    word-spacing: 15px;
+    font-size: large;
+    margin-top: 70px;
+    margin-left: 50px;
+    /* background-color: violet; */
+}
+.right .L a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.right .L a:hover{
+    cursor: pointer;
+    color: rgb(24,178,227);
+}
+.right .o{
+    height: 30px;
+    width: 30%;
+    word-spacing: 15px;
+    font-size: large;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 62%;
+    /* background-color: violet; */
+}
+.right .v{
+    height: 30px;
+    width: 55%;
+    word-spacing: 15px;
+    font-size: large;
+    position: relative;
+    margin-top: -32px;
+    margin-left: 50%;
+    /* background-color: violet; */
+}
+/* ---------------------------------------------------- */
+.hero{
+    height: 220px;
+    width: 100%;
+    color: rgb(24,178,227);
+    margin-top: 100px;
+}
+.hero h1{
+    font-size: 80px;
+    margin-left: 180px;
+    font-family: "Oswald", sans-serif;
+}
+.hero h2{
+    font-size: 80px;
+    margin-left: 180px;
+    position: relative;
+    margin-top: -20px;
+    color: rgb(24,178,227);
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+.hero h3{
+    font-size: 36px;
+    margin-left: 180px;
+    position: relative;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+.main2{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(7,22,92);
+    display: flex;
+}
+.main2 .left2{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(106, 106, 181);
+}
+.main2 .left2 .a img{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(106, 106, 181);
+}
+.main2 .right2{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(7,22,92);
+    padding-inline: 20px;
+    padding-block: 150px;
+}
+.right2 h1{
+    font-size: 60px;
+    margin-left: 70px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(24,178,227);
+    /* background-color: aqua; */
+}
+.right2 p{
+    font-size: 15px;
+    margin-left: 72px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    word-spacing: 2px;
+    line-height: 30px;
+    /* background-color: aqua; */
+}
+/* ---------------------------------------------------------- */
+.main3{
+    height: 760px;
+    width: 100%;
+    background-color: rgb(3,15,56);
+}
+.main3 .top{
+    height: 280px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+.main3 .top h1{
+    font-size: 50px;
+    margin-left: 80px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(0, 195, 255);
+    margin-inline: 460px;
+    padding-block: 90px;
+}
+.top1{
+    height: 298px;
+    width: 946px;
+    /* background-color: palegreen; */
+    margin-inline: 150px;
+    display: flex;
+}
+.top1 .topa{
+    height: 298px;
+    width: 299px;
+   background-image: url(./84770f_3e8a581ece8b4ccca12d7f49880e1051~mv2.jpg);
+   -webkit-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+   -moz-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+   box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+}
+.topi{
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+}
+.topi p{
+    color: white;
+    margin-left: 15px;
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 300;  
+}
+.topi p:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.topii p{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(5, 59, 59); */
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-top: 53px;
+    font-size: 28px;
+}
+.topii p:hover{
+    cursor: pointer;
+    color: rgb(0, 195, 255);
+}
+.top1 .topb{
+    height: 298px;
+    width: 299px;
+    margin-left: 24.5px;
+    -webkit-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    -moz-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    background-image: url(./84770f_fb90404e629b4f249950d6b66895badb~mv2.jpg);
+}
+.top1 .topc{
+    height: 298px;
+    width: 299px;
+    margin-left: 24.5px;
+    -webkit-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    -moz-box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    box-shadow: inset 0px 0px 300px 200px rgba(1,3,26,0.4);
+    background-image: url(./84770f_c3b39afdc1fe43b5ab024b638e69d1cc~mv2.jpg);
+}
+.gh{
+    color: rgb(0, 195, 255);
+    margin-left: 550px;
+    margin-top: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 200;
+    padding-inline: 18px;
+    padding-block: 10px;
+    background: none;
+    border: 3px solid rgb(0, 195, 255);
+    transition: 1s;
+}
+.gh:hover{
+    color: white;
+    background-color:  rgb(0, 195, 255);
+    cursor: pointer;
+}
+/* --------------------------------------------------------- */
+.main4{
+    height: 740px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    background-image: url(./ea71bb_4884b1deb29244bebcbd4f6c97bd8f7a~mv2_d_5199_2930_s_4_2.jpg);
+}
+.main4 p{
+    height: 300px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    font-size: 100px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(0, 195, 255);
+    padding-inline: 510px;
+    padding-top: 200px;
+}
+button{
+    color:  rgb(0, 195, 255);
+    margin-left: 45.5%;
+    margin-top: 80px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 200;
+    padding-inline: 18px;
+    padding-block: 10px;
+    background: none;
+    border: 3px solid  rgb(0, 195, 255);
+    transition: 1s;
+
+}
+button:hover{
+    color: white;
+    background-color:  rgb(0, 195, 255);
+    cursor:  pointer;
+}
+/* ---------------------------------------------------------- */
+.main5{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(3,15,56);
+}
+.main5 p{
+    height: 150px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    font-size: 55px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(0, 195, 255);
+    /* padding-inline: 420px; */
+    padding-left: 422px;
+    padding-top: 50px;
+    font-weight: 400;
+}
+.main5 h1{
+    height: 30px;
+    width: 100%;
+    /* background-color: rgb(0, 255, 170); */
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    padding-inline: 420px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.texts{
+    margin-top: 50px;
+}
+.text1 input{
+    margin-left: 150px;
+    background-color: transparent;
+    font-size: 15px;
+    padding-inline: 5px;
+    padding-block: 5px;
+    width: 380px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    float: left;
+}
+.text2 input{
+    margin-left: 15px;
+    background-color: transparent;
+    font-size: 15px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    width: 380px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    float: left;
+    /* background-color: violet; */
+}
+.main5 button{
+    height: 40px;
+    width: 12%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(66,66,66);
+    position: relative;
+    margin-top: -40px;
+    border: none;
+    margin-left: 950px;
+    float: left;
+    padding-block: 2px;
+    padding-inline: 10px;
+    font-size: 15px ;
+    font-weight: 400;
+    transition: 1s;
+
+}
+.main5 button:hover{
+    background-color: rgb(140, 140, 140);
+    cursor: pointer;
+}
+/* ------------------------------------------------------------- */
+.main51{
+    height: 250px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 210px;
+}
+.main51 .bhavik{
+    height: 10px;
+    width: 100%;
+    /* background-color: rgb(0, 0, 36); */
+    margin-top: 210px;
+    border-top: 2px solid rgb(125, 125, 125);
+}
+.bhavik1 {
+    height: 40px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+h6{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+h6:hover{
+    cursor: pointer;
+}
+/* -------------------------------------------- */
+.main52 {
+    height: 30px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main52:hover{
+    cursor: pointer;
+}
+.main52 .h{
+    height: 30px;
+    width: 30%;
+    word-spacing: 15px;
+    margin-left: 21%;
+    /* background-color: violet; */
+}
+.main52 .i{
+    height: 30px;
+    width: 55%;
+    word-spacing: 15px;
+    margin-top: -28px;
+    margin-left: 23%;
+    /* background-color: violet; */
+}
+.main53 {
+    height: 90px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+h2{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
